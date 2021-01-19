@@ -97,8 +97,8 @@ public class MainActivity extends AppCompatActivity {
                     JSONObject jsonObject1 = jsonArray.getJSONObject(i);
 
                     MovieModel model = new MovieModel();
-                    model.setId(jsonObject1.getString("vote_average"));
-                    model.setName(jsonObject1.getString("title"));
+                    model.setId(jsonObject1.getString("title"));
+                    model.setName(jsonObject1.getString("vote_average"));
                     model.setImg(jsonObject1.getString("poster_path"));
 
                     movieList.add(model);
