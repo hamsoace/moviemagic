@@ -24,7 +24,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static String TMDB_URL = "https://api.themoviedb.org/3/movie/550?api_key=99245b77770c86fcff9457053ff5437e";
+    private static String TMDB_URL = "https://api.themoviedb.org/3/movie/popular?api_key=99245b77770c86fcff9457053ff5437e";
 
     List<MovieModel> movieList;
     RecyclerView recyclerView;
